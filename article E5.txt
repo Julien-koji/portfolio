@@ -1,0 +1,29 @@
+Article 1 — NetBox Labs & AHEAD (The Manila Times)
+
+L'article annonce un partenariat stratégique entre NetBox Labs (spécialiste de la documentation et gestion d'infrastructure réseau) et AHEAD (cabinet de conseil IT) pour aider les entreprises à moderniser leur infrastructure, automatiser leurs opérations et se préparer à l'IA.
+Points clés : NetBox sert de source de vérité pour l'inventaire réseau — la documentation automatique de l'infrastructure est un prérequis à toute démarche IA — le partenariat vise à accélérer la transition vers des environnements cloud-ready et automatisés.
+
+Article 2 — Tendances télécom 2026 (The Fast Mode)
+
+Analyse prospective de Samsung sur l'évolution des réseaux télécoms en 2026, vue comme une année charnière pour l'autonomie des réseaux.
+Points clés : 2026 est attendu comme une année décisive pour les opérations autonomes, avec des réseaux capables de se surveiller, s'analyser et s'optimiser sans supervision humaine constante. The Fast Mode Cette transformation repose sur des couches décisionnelles IA combinant télémétrie temps réel, modélisation prédictive, agents autonomes et jumeaux numériques. The Fast Mode L'Open RAN gagne du terrain en Europe et les interfaces ouvertes deviennent indispensables pour intégrer des algorithmes IA tiers.
+
+Article 3 — MyNavi Tech+ (Japon)
+
+Article de la presse spécialisée japonaise sur l'automatisation réseau. Le contenu exact n'est pas accessible (langue japonaise + accès restreint), mais le sujet porte sur les pratiques d'administration réseau automatisées et les tendances IT au Japon en 2026.
+Points clés : évolution des pratiques d'administration réseau au Japon — adoption des outils d'automatisation dans les environnements IT professionnels japonais — regard d'une presse technique non-anglophone sur un sujet mondial.
+
+Article 4 — Agents IA pour DevOps (Syft AI)
+
+Des agents IA sont développés pour automatiser des tâches DevOps comme la réponse aux incidents, les déploiements et la surveillance, avec un objectif d'autonomie complète. syft
+Points clés : ces agents peuvent identifier les causes profondes, exécuter des runbooks et vérifier les solutions en quelques minutes, surpassant la rapidité humaine. syft La mise en œuvre se fait en phases, débutant par un rôle d'observateur avant d'évoluer vers une réponse autonome, avec des garde-fous de sécurité comme des accès en lecture seule et des gates d'approbation. syft L'objectif final est de libérer les ingénieurs SRE des tâches répétitives pour qu'ils se concentrent sur des problèmes complexes.
+
+Article 5 — AIOps et surveillance IT (Syft AI)
+
+Plus de 60 % des entreprises ont déployé l'AIOps, mais beaucoup continuent à lutter contre la résolution réactive des incidents après cinq ans. syft
+Points clés : les solutions traditionnelles d'AIOps mettent l'accent sur la réduction du MTTR sans traiter les causes profondes. syft CloudQ propose une approche préventive basée sur la gouvernance architecturale pour éliminer les problèmes à la source, en s'appuyant sur la visualisation architecturale, l'évaluation des risques et des recommandations d'optimisation concrètes. syft L'AIOps vise à améliorer la fiabilité tout en réduisant les coûts d'exploitation.
+
+Article 6 — SDN + IA : sécurité adaptative (Syft AI)
+
+Les architectures de sécurité traditionnelles basées sur des pare-feu statiques et des VLANs ne suffisent plus à l'ère du cloud, de l'IoT et des réseaux OT ouverts.
+Points clés : en cas de brèche périmétrique, un attaquant peut se déplacer presque librement dans le réseau. syft La combinaison SDN et IA favorise une stratégie Zero Trust pour une sécurité réseau autonome, s'appuyant sur la microsegmentation programmable, la détection des anomalies en temps réel et la mise en œuvre autonome des politiques.
