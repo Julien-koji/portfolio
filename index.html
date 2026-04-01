@@ -261,6 +261,68 @@
         margin-left: 9px;
       }
     }
+
+    /* Vignettes veille technologique */
+    .article-card {
+      background: var(--card);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0, 0, 0, .08);
+      display: flex;
+      flex-direction: column;
+      border-top: 4px solid var(--secondary);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
+
+    .article-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 35px rgba(0, 0, 0, .12);
+    }
+
+    .article-source {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+
+    .source-badge {
+      background: #e5edff;
+      color: #1d4ed8;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+
+    .article-date {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .article-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 0.6rem;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .article-desc {
+      font-size: 13px;
+      color: var(--muted);
+      flex-grow: 1;
+      margin-bottom: 0.75rem;
+      line-height: 1.6;
+    }
+
+    .article-btn {
+      margin-top: 0;
+      display: inline-block;
+      text-align: center;
+    }
   </style>
 </head>
 
@@ -306,7 +368,8 @@
         <div class="tl-card">
           <span class="tl-badge">Diplôme</span>
           <h3>Baccalauréat</h3>
-          <p>Obtention d'un baccalauréat générale, avec les spécialités NSI (Numérique et Sciences informatiques) et Mathématique.</p>
+          <p>Obtention d'un baccalauréat générale, avec les spécialités NSI (Numérique et Sciences informatiques) et
+            Mathématique.</p>
         </div>
       </div>
 
@@ -318,7 +381,8 @@
         <div class="tl-card">
           <span class="tl-badge actuel">✦ En cours</span>
           <h3>BTS SIO – SISR</h3>
-          <p>Services Informatiques aux Organisations, option Solutions d'Infrastructure, Systèmes et Réseaux (SISR).</p>
+          <p>Services Informatiques aux Organisations, option Solutions d'Infrastructure, Systèmes et Réseaux (SISR).
+          </p>
         </div>
       </div>
 
@@ -415,14 +479,18 @@
           <span class="source-badge">The Manila Times</span>
           <span class="article-date">01 Avril 2026</span>
         </div>
-        <h3 class="article-title">NetBox Labs & AHEAD : partenariat pour moderniser les infrastructures d'entreprise</h3>
+        <h3 class="article-title">NetBox Labs & AHEAD : partenariat pour moderniser les infrastructures d'entreprise
+        </h3>
         <p class="article-desc">
-          NetBox Labs et AHEAD s'associent pour accélérer la modernisation des infrastructures d'entreprise, l'automatisation et la préparation à l'IA.
+          NetBox Labs et AHEAD s'associent pour accélérer la modernisation des infrastructures d'entreprise,
+          l'automatisation et la préparation à l'IA.
         </p>
         <div class="tags" style="margin-bottom:1rem;">
           <span>Automatisation</span><span>Infrastructure</span><span>IA</span>
         </div>
-        <a class="btn article-btn" href="https://www.manilatimes.net/2026/04/01/tmt-newswire/globenewswire/netbox-labs-and-ahead-announce-strategic-partnership-to-accelerate-enterprise-infrastructure-modernization-automation-and-ai-readiness/2312341" target="_blank">Lire l'article →</a>
+        <a class="btn article-btn"
+          href="https://www.manilatimes.net/2026/04/01/tmt-newswire/globenewswire/netbox-labs-and-ahead-announce-strategic-partnership-to-accelerate-enterprise-infrastructure-modernization-automation-and-ai-readiness/2312341"
+          target="_blank">Lire l'article →</a>
       </div>
 
       <div class="article-card">
@@ -432,12 +500,15 @@
         </div>
         <h3 class="article-title">Tendances télécom 2026 : efficacité, autonomie et IA en tête</h3>
         <p class="article-desc">
-          Analyse des grandes tendances qui façonnent les télécommunications en 2026 : réseaux autonomes, optimisation par l'IA et automatisation des opérations.
+          Analyse des grandes tendances qui façonnent les télécommunications en 2026 : réseaux autonomes, optimisation
+          par l'IA et automatisation des opérations.
         </p>
         <div class="tags" style="margin-bottom:1rem;">
           <span>Télécom</span><span>Réseaux autonomes</span><span>IA</span>
         </div>
-        <a class="btn article-btn" href="https://www.thefastmode.com/expert-opinion/47892-2026-telecom-trends-efficiency-autonomy-and-ai-lead-the-way" target="_blank">Lire l'article →</a>
+        <a class="btn article-btn"
+          href="https://www.thefastmode.com/expert-opinion/47892-2026-telecom-trends-efficiency-autonomy-and-ai-lead-the-way"
+          target="_blank">Lire l'article →</a>
       </div>
 
       <div class="article-card">
@@ -447,12 +518,14 @@
         </div>
         <h3 class="article-title">Automatisation réseau et tendances IT au Japon en 2026</h3>
         <p class="article-desc">
-          Article technique de la presse spécialisée japonaise sur l'évolution de l'automatisation des réseaux et les nouvelles pratiques d'administration IT.
+          Article technique de la presse spécialisée japonaise sur l'évolution de l'automatisation des réseaux et les
+          nouvelles pratiques d'administration IT.
         </p>
         <div class="tags" style="margin-bottom:1rem;">
           <span>Réseau</span><span>Automatisation</span><span>IT</span>
         </div>
-        <a class="btn article-btn" href="https://news.mynavi.jp/techplus/kikaku/20260401-4275834/" target="_blank">Lire l'article →</a>
+        <a class="btn article-btn" href="https://news.mynavi.jp/techplus/kikaku/20260401-4275834/" target="_blank">Lire
+          l'article →</a>
       </div>
 
       <div class="article-card">
@@ -462,12 +535,15 @@
         </div>
         <h3 class="article-title">Agents IA pour automatiser les tâches DevOps et viser l'autonomie d'incident</h3>
         <p class="article-desc">
-          Des agents IA sont déployés pour automatiser la réponse aux incidents, les déploiements et la surveillance réseau, avec un objectif d'autonomie complète en 2026.
+          Des agents IA sont déployés pour automatiser la réponse aux incidents, les déploiements et la surveillance
+          réseau, avec un objectif d'autonomie complète en 2026.
         </p>
         <div class="tags" style="margin-bottom:1rem;">
           <span>DevOps</span><span>AIOps</span><span>Agents IA</span>
         </div>
-        <a class="btn article-btn" href="https://syft.ai/fr/detail/6102900090-f62489ef0c3f43e084e5fa2f19f7f56f?smod=structured&setup=get-app&ref=evoke&scene=app_share" target="_blank">Lire l'article →</a>
+        <a class="btn article-btn"
+          href="https://syft.ai/fr/detail/6102900090-f62489ef0c3f43e084e5fa2f19f7f56f?smod=structured&setup=get-app&ref=evoke&scene=app_share"
+          target="_blank">Lire l'article →</a>
       </div>
 
     </div>
