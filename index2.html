@@ -249,17 +249,71 @@
     }
 
     @media (max-width: 520px) {
-      .timeline::before {
-        left: 16px;
-      }
+      .timeline::before { left: 16px; }
+      .tl-date { display: none; }
+      .tl-dot { margin-left: 9px; }
+    }
 
-      .tl-date {
-        display: none;
-      }
+    /* Vignettes veille technologique */
+    .article-card {
+      background: var(--card);
+      border-radius: 1rem;
+      padding: 1.5rem;
+      box-shadow: 0 10px 25px rgba(0,0,0,.08);
+      display: flex;
+      flex-direction: column;
+      border-top: 4px solid var(--secondary);
+      transition: transform 0.2s, box-shadow 0.2s;
+    }
 
-      .tl-dot {
-        margin-left: 9px;
-      }
+    .article-card:hover {
+      transform: translateY(-4px);
+      box-shadow: 0 16px 35px rgba(0,0,0,.12);
+    }
+
+    .article-source {
+      display: flex;
+      align-items: center;
+      justify-content: space-between;
+      margin-bottom: 0.75rem;
+    }
+
+    .source-badge {
+      background: #e5edff;
+      color: #1d4ed8;
+      font-size: 11px;
+      font-weight: 600;
+      letter-spacing: 1px;
+      text-transform: uppercase;
+      padding: 3px 10px;
+      border-radius: 999px;
+    }
+
+    .article-date {
+      font-size: 12px;
+      color: var(--muted);
+    }
+
+    .article-title {
+      font-size: 1rem;
+      font-weight: 700;
+      margin: 0 0 0.6rem;
+      line-height: 1.4;
+      color: var(--text);
+    }
+
+    .article-desc {
+      font-size: 13px;
+      color: var(--muted);
+      flex-grow: 1;
+      margin-bottom: 0.75rem;
+      line-height: 1.6;
+    }
+
+    .article-btn {
+      margin-top: 0;
+      display: inline-block;
+      text-align: center;
     }
   </style>
 </head>
@@ -301,36 +355,26 @@
       <div class="tl-entry">
         <div class="tl-date">
           <div class="tl-year">2023</div>
+          <div class="tl-period">2023 – 2024</div>
         </div>
-        <div class="tl-dot active"></div>
+        <div class="tl-dot"></div>
         <div class="tl-card">
           <span class="tl-badge">Diplôme</span>
           <h3>Baccalauréat</h3>
-          <p>Obtention d'un baccalauréat générale, avec les spécialités NSI (Numérique et Sciences informatiques) et Mathématique.</p>
+          <p>Obtention du baccalauréat, premier diplôme national de l'enseignement secondaire.</p>
         </div>
       </div>
 
       <div class="tl-entry">
         <div class="tl-date">
-          <div class="tl-year">2024 – 2026</div>
+          <div class="tl-year">2024</div>
+          <div class="tl-period">2024 – 2026</div>
         </div>
         <div class="tl-dot active"></div>
         <div class="tl-card">
           <span class="tl-badge actuel">✦ En cours</span>
           <h3>BTS SIO – SISR</h3>
-          <p>Services Informatiques aux Organisations, option Solutions d'Infrastructure, Systèmes et Réseaux (SISR).</p>
-        </div>
-      </div>
-
-      <div class="tl-entry">
-        <div class="tl-date">
-          <div class="tl-year">2026 - 2027</div>
-        </div>
-        <div class="tl-dot active"></div>
-        <div class="tl-card">
-          <span class="tl-badge actuel">✦ Futur</span>
-          <h3>Licence Informatique Réseaux & Cybersécurité en partenariat avec le CNAM</h3>
-          <p>Licence pouvant être effectué à Le Rebours en alternance.</p>
+          <p>Services Informatiques aux Organisations, option Systèmes et Réseaux. Diplôme prévu en 2026.</p>
         </div>
       </div>
 
@@ -534,7 +578,7 @@
     <div class="grid">
       <div class="card">
         <h3>Coordonnées</h3>
-        <p><strong>Email :</strong> julien.garnier937@gmail.com</p>
+        <p><strong>Email :</strong> <a href="/cdn-cgi/l/email-protection" class="__cf_email__" data-cfemail="79130c15101c17571e180b17101c0b404a4e391e14181015571a1614">[email&#160;protected]</a></p>
         <p>Mon CV est disponible au format PDF.</p>
         <a class="btn" href="GARNIER Julien CV.pdf" target="_blank">Voir le CV</a>
       </div>
@@ -551,8 +595,7 @@
         target="_blank"> 1lAaN</a></p>
   </footer>
 
-  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script>
-  <script>
+  <script data-cfasync="false" src="/cdn-cgi/scripts/5c5dd728/cloudflare-static/email-decode.min.js"></script><script>
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
       anchor.addEventListener('click', function (e) {
         e.preventDefault();
@@ -586,5 +629,4 @@
     });
   </script>
 </body>
-
 </html>
